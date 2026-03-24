@@ -1,0 +1,12 @@
+ipfs init
+ipfs daemon &
+
+bash nodes/127.0.0.1/start_all.sh
+
+
+conda activate fisco
+cd python-sdk/
+streamlit run app.py 
+
+
+0xfa3bc108cfb2bc3dae409dd6543ec858822084a1e788a4d85e2499611c269a8c
